@@ -14,15 +14,68 @@
 <body>
     <br><br>
 <br><br><br>
-    <a href="index.html" style="text-decoration: none;"><p style="margin-left: 450px; margin-top: -45px; font-size: 20px" class="link">HOME</p></a>
-    <a href="about.html" style="text-decoration: none;"><p style="margin-left: 550px; margin-top: -45px; font-size: 20px" class="link">ABOUT ME</p></a>
-    <a href="awards.html" style="text-decoration: none;"><p style="margin-left: 670px; margin-top: -46px; font-size: 20px" class="link">AWARDS & ACHIEVEMENTS</p></a>
-    <a href="projects.html" style="text-decoration: none;"><p style="margin-left: 950px; margin-top: -46px; font-size: 20px" class="link">PROJECTS</p></a> 
-
+<div class="hello" style="margin-left: -32px;">
+  <a href="index.html" style="text-decoration: none;"><p style="margin-left: 450px; margin-top: -45px; font-size: 20px" class="link">HOME</p></a>
+  <a href="about.html" style="text-decoration: none;"><p style="margin-left: 550px; margin-top: -45px; font-size: 20px" class="link">ABOUT ME</p></a>
+  <a href="awards.html" style="text-decoration: none;"><p style="margin-left: 670px; margin-top: -46px; font-size: 20px" class="link">AWARDS & ACHIEVEMENTS</p></a>
+  <a href="projects.html" style="text-decoration: none;"><p style="margin-left: 950px; margin-top: -46px; font-size: 20px" class="link">OPPORTUNITIES</p></a> 
+</div>
 <br><br><br><br>
+<p style="font-size: 20px; margin-left: 100px;">I have recently decided to start freelance programming in order to gain more personal experience. People from anywhere can request for a website with a basic idea of contents, and I will create a website for them using code. <br><br><i>For my first 10 websites, I will create them for free upon registration of their details.</i>
+<br><br>
+Here are the services I am currently able to offer: 
+<br><br>
+<ul style="font-size: 20px; margin-left: 150px;">
+  <li>Level 1: HTML <b>(Basic Plan)</b></li>
+  <li>Level 2: CSS <b>(Designed Plan)</b></li>
+  <li>Level 3: JavaScript <b>(Interactive Plan)</b></li>
+</ul><br><br>
+<p style="font-size: 20px; margin-left: 100px;">Clients can choose any one of these plans, and with providing a short description regarding their content, they can get their <br> website completed within a given period of time. </p>
+</p><br><br>
+<h2 style="margin-left: 100px;"><u>Why choose me to build your site? </u></h2>
+<br><br><br>
 
-<center><h1 style="font-size: 50px;">Currently under development!</h1></center>
+<br><br><br>
 
+
+<center>
+
+  <div class="container" style="margin-left: 40px;">
+    <br>
+<img src="balanced.png" width="100px">
+<br><br>
+<h2 class="gradient-text">Balanced</h2>
+
+<br><br><p>A perfect <i>splash</i> of colors, graphics, and different colored text. Usage of multiple front-end development techniques allows unique and fresh looks.</p>
+  </div>
+
+  <div class="container" style="margin-top: -400px;">
+    <br>
+<img src="simple.png" width="100px">
+<br><br>
+<h2 class="gradient-text" style="background-image: linear-gradient(45deg, #ff0000, #fff41c)">Simple</h2>
+
+<br><br><p>Customizable and understandable code ranging from multiple languages and libraries to allow maximum efficiency. </p>
+  </div>
+  <div class="container" style="margin-top: -400px; margin-right: 40px">
+    <br>
+<img src="reliable.png" width="100px">
+<br><br>
+<h2 class="gradient-text" style="background-image: linear-gradient(45deg, #00ffd5, #1cff77)">Reliable</h2>
+
+<br><br><p>As a budding programmer with over 3 years of experience,  you can rest assured that you will end up with a top-class masterpiece.</p>
+  </div>
+</center>
+<br><br><br><br><br>
+<center>
+  <p style="font-size: 40px;">To get started, click <a href="https://forms.gle/wdKkorMWjWmH5enPA" target="_blank">here</a> and fill up the registration form!</p>
+  </center>
+
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+
+  <center><p style="font-size: 15px; color: grey">Made by Kartik Nayak © 2022</p></center>
+  <br><br><br><br><br>
 <style>
 
 
@@ -35,12 +88,34 @@
         margin: 0%;
         padding: 0%;
     }
+
     *::selection {
   /* Change highlight background color to black */
   background: #000;
   /* Change highlight text color to red */
   color: white;
 }
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: red;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #1900ff, #f71cff);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+
 
 .intro{
   background-attachment: scroll;
@@ -185,6 +260,14 @@ p{
     .link:hover{
         color: rgb(140, 0, 255);
         transition: 1s;
+    }
+
+    .container{
+      width: 400px;
+      height: 400px;
+      border-radius: 20px;
+      border: 2px solid black;
+      
     }
 
 </style>
